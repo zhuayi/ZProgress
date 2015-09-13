@@ -163,7 +163,8 @@
 				38640BE31BA5B9A4008B37BB /* ZProgressStyle.h */,
 				38640BE41BA5B9A4008B37BB /* ZProgressStyle.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		38640BEF1BA5C28E008B37BB /* Podspec Metadata */ = {
