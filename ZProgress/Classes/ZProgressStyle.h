@@ -14,10 +14,10 @@ typedef NS_ENUM(NSInteger, ZProgressType) {
     // 圆形进度条
     ScrollToRound,
     
-    // 举行进度条, X 轴滑行
+    // 进度条, X 轴滑行
     ScrollToX,
     
-    // 举行进度条, Y 轴滑行
+    // 进度条, Y 轴滑行
     ScrollToY
 };
 

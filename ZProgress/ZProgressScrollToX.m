@@ -33,14 +33,12 @@
     
     
     ZProgressView *roundProgessView = [[ZProgressView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 64)];
-
-    // 进度条宽度
-    roundProgessView.style.progressWidth = 50.0;
-    [roundProgessView setProgress:30 / 100.0 animated:YES duration:1.2];
-    roundProgessView.delegate = self;
-    roundProgessView.style.zprogressType = ScrollToX;
-    roundProgessView.style.progressColor = [UIColor redColor];
-    roundProgessView.style.trackTintColor = [UIColor greenColor];
+    roundProgessView.style.progressWidth = 50.0; // 进度条宽度
+    [roundProgessView setProgress:30 / 100.0 animated:YES duration:1.2]; // 动画
+    roundProgessView.delegate = self; // 代理
+    roundProgessView.style.zprogressType = ScrollToX; // 滚动方向
+    roundProgessView.style.progressColor = [UIColor redColor];  // 进度条颜色值
+    roundProgessView.style.trackTintColor = [UIColor greenColor]; // 进度条背景色
     roundProgessView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:roundProgessView];
     
