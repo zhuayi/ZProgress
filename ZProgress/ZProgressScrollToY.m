@@ -13,7 +13,10 @@
 
 @end
 
-@implementation ZProgressScrollToY
+@implementation ZProgressScrollToY {
+    
+    UILabel *_textLabel;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,11 +43,26 @@
     roundProgessView.style.trackTintColor = [UIColor greenColor];
     roundProgessView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:roundProgessView];
+    
+    
+    // 自定义滑块
+    _textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    _textLabel.textAlignment = NSTextAlignmentCenter;
+    _textLabel.backgroundColor = [UIColor blackColor];
+    _textLabel.textColor = [UIColor redColor];
+    [self.view addSubview:_textLabel];
 }
 
 - (void)didDrawInContext:(CGFloat)progress rect:(CGRect)rect {
     
     NSLog(@"progress is %f, %@", progress, NSStringFromCGRect(rect));
+    
+    _textLabel.text = [NSString stringWithFormat:@"%0.f%%", progress * 100];
+    
+    CGRect frame = _textLabel.frame;
+    frame.origin.y = rect.size.height - rect.size.height * progress;
+    frame.origin.x = (rect.size.width - 25 - 25) / 2;
+    _textLabel.frame = frame;
 }
 
 @end

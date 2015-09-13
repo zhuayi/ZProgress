@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-![enter image description here](https://raw.githubusercontent.com/zhuayi/ZProgress/master/screenshots1.gif)![enter image description here](https://raw.githubusercontent.com/zhuayi/ZProgress/master/screenshots2.gif)![enter image description here](https://raw.githubusercontent.com/zhuayi/ZProgress/master/screenshots3.gif)
+![](https://raw.githubusercontent.com/zhuayi/ZProgress/master/screenshots/screenshots_1.gif)![](https://raw.githubusercontent.com/zhuayi/ZProgress/master/screenshots/screenshots_2.gif)![](https://raw.githubusercontent.com/zhuayi/ZProgress/master/screenshots/screenshots_3.gif)
 
 
 ## Example

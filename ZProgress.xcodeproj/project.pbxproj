@@ -116,12 +116,12 @@
 				38640BE71BA5BF76008B37BB /* ZProgressScrollToX.m */,
 				38640BE91BA5C022008B37BB /* ZProgressScrollToY.h */,
 				38640BEA1BA5C022008B37BB /* ZProgressScrollToY.m */,
+				38640BEC1BA5C0E5008B37BB /* ZProgressScrollToRound.h */,
+				38640BED1BA5C0E5008B37BB /* ZProgressScrollToRound.m */,
 				38640BBF1BA5B4D4008B37BB /* Main.storyboard */,
 				38640BC21BA5B4D4008B37BB /* Images.xcassets */,
 				38640BC41BA5B4D4008B37BB /* LaunchScreen.xib */,
 				38640BB51BA5B4D4008B37BB /* Supporting Files */,
-				38640BEC1BA5C0E5008B37BB /* ZProgressScrollToRound.h */,
-				38640BED1BA5C0E5008B37BB /* ZProgressScrollToRound.m */,
 			);
 			path = ZProgress;
 			sourceTree = "<group>";
