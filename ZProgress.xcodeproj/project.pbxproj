@@ -20,6 +20,9 @@
 		38640BE81BA5BF76008B37BB /* ZProgressScrollToX.m in Sources */ = {isa = PBXBuildFile; fileRef = 38640BE71BA5BF76008B37BB /* ZProgressScrollToX.m */; };
 		38640BEB1BA5C022008B37BB /* ZProgressScrollToY.m in Sources */ = {isa = PBXBuildFile; fileRef = 38640BEA1BA5C022008B37BB /* ZProgressScrollToY.m */; };
 		38640BEE1BA5C0E5008B37BB /* ZProgressScrollToRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 38640BED1BA5C0E5008B37BB /* ZProgressScrollToRound.m */; };
+		38640BF31BA5C29B008B37BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 38640BF01BA5C29B008B37BB /* LICENSE */; };
+		38640BF41BA5C29B008B37BB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 38640BF11BA5C29B008B37BB /* README.md */; };
+		38640BF51BA5C29B008B37BB /* ZProgress.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 38640BF21BA5C29B008B37BB /* ZProgress.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		38640BEA1BA5C022008B37BB /* ZProgressScrollToY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZProgressScrollToY.m; sourceTree = "<group>"; };
 		38640BEC1BA5C0E5008B37BB /* ZProgressScrollToRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZProgressScrollToRound.h; sourceTree = "<group>"; };
 		38640BED1BA5C0E5008B37BB /* ZProgressScrollToRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZProgressScrollToRound.m; sourceTree = "<group>"; };
+		38640BF01BA5C29B008B37BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		38640BF11BA5C29B008B37BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38640BF21BA5C29B008B37BB /* ZProgress.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZProgress.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		38640BA91BA5B4D4008B37BB = {
 			isa = PBXGroup;
 			children = (
+				38640BEF1BA5C28E008B37BB /* Podspec Metadata */,
 				38640BB41BA5B4D4008B37BB /* ZProgress */,
 				38640BCE1BA5B4D4008B37BB /* ZProgressTests */,
 				38640BB31BA5B4D4008B37BB /* Products */,
@@ -157,6 +164,16 @@
 				38640BE41BA5B9A4008B37BB /* ZProgressStyle.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		38640BEF1BA5C28E008B37BB /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				38640BF01BA5C29B008B37BB /* LICENSE */,
+				38640BF11BA5C29B008B37BB /* README.md */,
+				38640BF21BA5C29B008B37BB /* ZProgress.podspec */,
+			);
+			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +258,9 @@
 			files = (
 				38640BC11BA5B4D4008B37BB /* Main.storyboard in Resources */,
 				38640BC61BA5B4D4008B37BB /* LaunchScreen.xib in Resources */,
+				38640BF31BA5C29B008B37BB /* LICENSE in Resources */,
 				38640BC31BA5B4D4008B37BB /* Images.xcassets in Resources */,
+				38640BF51BA5C29B008B37BB /* ZProgress.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +280,7 @@
 			files = (
 				38640BE21BA5B4FA008B37BB /* ZProgressView.m in Sources */,
 				38640BEB1BA5C022008B37BB /* ZProgressScrollToY.m in Sources */,
+				38640BF41BA5C29B008B37BB /* README.md in Sources */,
 				38640BE51BA5B9A4008B37BB /* ZProgressStyle.m in Sources */,
 				38640BBE1BA5B4D4008B37BB /* ViewController.m in Sources */,
 				38640BE81BA5BF76008B37BB /* ZProgressScrollToX.m in Sources */,
