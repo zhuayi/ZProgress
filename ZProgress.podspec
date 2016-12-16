@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZProgress"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ZProgress是一款自定义非常方便的进度条控件"
 
   s.description  = <<-DESC
