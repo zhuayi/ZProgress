@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B61E3FAB-9D69-4565-B34C-1A4DFBF5D906</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ZProgress</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BAAAB7533FCAF2B91B80BBD6E9A1888F77AE9ECA</key>
 		<string>https://github.com/zhuayi/ZProgress.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ZProgress.xcodeproj/project.xcworkspace</string>
+	<string>ZProgress.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BAAAB7533FCAF2B91B80BBD6E9A1888F77AE9ECA</key>

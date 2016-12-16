@@ -10,7 +10,7 @@
 #import "ZProgressKit.h"
 #import "ZProgressStyle.h"
 
-@interface ZProgressView : UIView
+@interface ZProgressView : UIView<CAAnimationDelegate>
 
 /**
  *  进度条样式
