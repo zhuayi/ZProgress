@@ -33,7 +33,7 @@
 
 @property (nonatomic, weak) id<ZProgressDelegate> progressDelegate;
 
-@property (nonatomic, strong) CAGradientLayer *gradientLayer;
+@property (nonatomic, strong) CALayer *gradientLayer;
 
 @property (nonatomic, strong) CAGradientLayer *gradientLayer1;
 

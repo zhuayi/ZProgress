@@ -50,7 +50,7 @@
         [self.gradientLayer addSublayer:self.gradientLayer2];
         
         self.progressLayer = [CAShapeLayer layer];
-//        _progressLayer.lineCap = kCALineCapRound;
+//        self.progressLayer.lineCap = kCALineCapRound;
         self.progressLayer.fillColor = [UIColor clearColor].CGColor;
         self.progressLayer.strokeColor = [UIColor redColor].CGColor;
 
