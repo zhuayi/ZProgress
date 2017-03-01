@@ -31,6 +31,14 @@
  */
 //@property (nonatomic, assign) ZProgressType zprogressType;
 
-
 @property (nonatomic, weak) id<ZProgressDelegate> progressDelegate;
+
+@property (nonatomic, strong) CAGradientLayer *gradientLayer;
+
+@property (nonatomic, strong) CAGradientLayer *gradientLayer1;
+
+@property (nonatomic, strong) CAGradientLayer *gradientLayer2;
+
+@property (nonatomic, strong) CAShapeLayer *progressLayer;
+
 @end
